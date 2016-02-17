@@ -1,0 +1,22 @@
+{
+  "name": "colors-with-node",
+  "version": "1.0.0",
+  "description": "We're going to practice working with node modules and npm! We want to sort some song data to output the following:",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleJayMaxwell/colors-with-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleJayMaxwell/colors-with-node/issues"
+  },
+  "homepage": "https://github.com/KyleJayMaxwell/colors-with-node#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
