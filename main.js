@@ -11,7 +11,31 @@ var songs = [
 ].sort(function(a, b){
   return a.difficulty - b.difficulty;
 });
-module.exports = songs;
+// module.exports = songs;
+
+var easy = [];
+var medium = [];
+var hard = [];
+
+for (var i = 0; i < songs.length; i++) {
+  var title = songs[i]['title'];
+  var artist = songs[i]['artist'];
+  var difficulty = songs[i]['difficulty'];
+  var whole = (title+" by "+ artist + " ["+difficulty+"]");
+  if(difficulty < 3){
+    console.log(whole.america);
+  } else if(difficulty < 4){
+    console.log(whole.magenta);
+  } else{
+    console.log(whole.blue);
+  }
+};
+
+// module.exports = {
+//   easy: easy
+// }
+
+
 
 // var easy = songs.filter(function (el) {
 //   return el.difficulty < 3;
